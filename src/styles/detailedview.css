@@ -1,0 +1,39 @@
+.smaller-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.card-body p strong {
+    font-weight: bold;
+}
+
+.detailed-view-container {
+    margin-top: 20px;
+}
+
+.detailed-view-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.detailed-view-img {
+    margin-right: 20px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.detailed-view-body {
+    flex: 1;
+    padding: 20px;
+}
+
+.detailed-view-title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}

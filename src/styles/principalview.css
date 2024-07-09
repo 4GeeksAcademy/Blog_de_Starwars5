@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://services.meteored.com/img/article/por-que-el-espacio-exterior-es-oscuro-si-esta-repleto-de-estrellas-1708088903182_1280.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: white;
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+  
