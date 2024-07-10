@@ -13,7 +13,7 @@ const getState = ({ getStore, getActions, setStore }) => {
                 try {
                     const res = await fetch("https://www.swapi.tech/api/people");
                     if (!res.ok) {
-                        throw new Error(`HTTP error! Status: ${res.status}`);
+                        throw new Error(`Application error Status: ${res.status}`);
                     }
                     const data = await res.json();
                     setStore({ people: data.results });
